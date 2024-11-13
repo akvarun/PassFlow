@@ -3,7 +3,7 @@ INPUT = test.txt
 BASE_NAME = $(basename $(INPUT))
 
 run:
-	python3 gatorTicket.py $(INPUT)
+	python3 gatorTicketMaster.py $(INPUT)
 	@echo "The output has been written in $(BASE_NAME)_output_file.txt"
 
 clean:
