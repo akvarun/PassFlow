@@ -7,6 +7,7 @@ class RedBlackTreeNode:
         self.userID = userID
         self.seatID = seatID
         self.color = 'R'  # 'R' for Red, 'B' for Black
+        self.color1 = 'L'
         self.left = None
         self.right = None
         self.parent = None
